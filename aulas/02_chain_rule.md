@@ -58,7 +58,7 @@ Vemos então que:
 
 $\frac{\text{d(Tamanho pé)}}{\text{d(Peso)}} = \frac{d(\text{Tamanho pé})}{d(Altura)} \times \frac{d(Altura)}{d(Peso)}$
 
-A Regra da cadeia pode ser aplicada para minimizar o Erro residual ao quadrado, uma função utilizada como métrica em Aprendizado de Máquina.
+A Regra da cadeia pode ser aplicada para minimizar o Erro residual ao quadrado, uma função de perda comumente minimizada em Aprendizado de Máquina.
 
 
 
