@@ -12,6 +12,30 @@ Percebe-se na imagem que alguns nós possuem linhas curvas dentro deles, eles s�
 
 Essa linha curva em específico se chamam **softplus**, porém também temos a **ReLu** que é uma abreviação para **Rectified Linear Unit**, como também temos a **sigmoid**. Essas linhas curvas ou dobradas são chamadas de função de ativação. Quando se constrói uma rede neural é necessário decidir qual função de ativação utilizar.
 
+![Curvas](../imagens/curves.png)
+
+As equações das curvas são dadas a seguir:
+
+$$
+\sigma(x) = \frac{1}{1 + e^{-x}}
+$$
+
+$$
+\text{ReLU}(x) =
+\begin{cases}
+0, & x < 0 \\
+x, & x \ge 0
+\end{cases}
+$$
+
+$$
+\text{Softplus}(x) = \ln(1 + e^x)
+$$
+
+$$
+\tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}
+$$
+
 **Camadas escondidas:** Camadas de nós entre os nós de entrada e os nós de saída.
 
 ## Criando uma curva a partir das funções de ativação
