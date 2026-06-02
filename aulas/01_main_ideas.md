@@ -16,25 +16,25 @@ Essa linha curva em específico se chamam **softplus**, porém também temos a *
 
 As equações das curvas são dadas a seguir:
 
-$$
+$
 \sigma(x) = \frac{1}{1 + e^{-x}}
-$$
+$
 
-$$
+$
 \text{ReLU}(x) =
 \begin{cases}
 0, & x < 0 \\
 x, & x \ge 0
 \end{cases}
-$$
+$
 
-$$
+$
 \text{Softplus}(x) = \ln(1 + e^x)
-$$
+$
 
-$$
+$
 \tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}
-$$
+$
 
 **Camadas escondidas:** Camadas de nós entre os nós de entrada e os nós de saída.
 
